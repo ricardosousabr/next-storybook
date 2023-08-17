@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render form 1`] = `
+<div>
+  <form
+    onClick={[Function]}
+  >
+    <input
+      type="text"
+    />
+    <div
+      className="styles__BoxButton-sc-1f4hn43-0 gbLRBs"
+    >
+      <button
+        className="styles__ButtonAdd-sc-1f4hn43-1 emxpRq"
+      >
+        Adicionar
+      </button>
+    </div>
+  </form>
+</div>
+`;

@@ -1,7 +1,11 @@
+import { BoxButton, ButtonAdd } from "./styles";
+
 export default function Button() {
   return (
     <>
-      <button>Click</button>
+      <BoxButton>
+        <ButtonAdd>Adicionar</ButtonAdd>
+      </BoxButton>
     </>
   );
 }
