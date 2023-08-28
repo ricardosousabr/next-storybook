@@ -17,7 +17,7 @@ export default {
 export const Primary = (args) => <Button {...args} />;
 Primary.args = {
   href: "",
-  children: "Button",
+  children: "",
   type: "submits",
   onClick: () => {
     console.log("Test");

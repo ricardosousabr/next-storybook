@@ -1,7 +1,7 @@
 import { BoxButton, ButtonAqua, ButtonPurple } from "./styles";
 import PropTypes from "prop-types";
 
-export default function Button({ children, type, onClick, href }) {
+export default function Button({ children, type, onClick, href, size }) {
   return (
     <>
       <BoxButton>
@@ -23,5 +23,10 @@ Button.propTypes = {
   href: PropTypes.string,
   onClick: PropTypes.func,
   children: PropTypes.string,
+  size: PropTypes.oneOf(["smail", "medium", "large"]),
   type: PropTypes.oneOf(["submit", "reset", "button"]).isRequired,
+};
+
+Button.defaultProps = {
+  children: "ttt",
 };
