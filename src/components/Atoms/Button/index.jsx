@@ -1,7 +1,7 @@
 import { BoxButton, ButtonAqua, ButtonPurple } from "./styles";
 import PropTypes from "prop-types";
 
-export default function Button({ children, type, onClick, href, size }) {
+export default function Button({ children, type, onClick, href }) {
   return (
     <>
       <BoxButton>

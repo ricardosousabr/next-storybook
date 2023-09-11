@@ -1,4 +1,4 @@
-import Button from "../Button";
+import Button from "../../Atoms/Button/index";
 
 export default function Form() {
   function handleForm(e) {
@@ -11,7 +11,7 @@ export default function Form() {
       <div>
         <form onClick={handleForm}>
           <input type="text" />
-          <Button />
+          <Button type="button" onClick={() => console.log("Test")}>Click</Button>
         </form>
       </div>
     </>

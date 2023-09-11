@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render button 1`] = `
+<div
+  className="styles__BoxButton-sc-1hhwn61-0 ficEpN"
+>
+  <button
+    className="styles__ButtonAqua-sc-1hhwn61-1 FuuFO"
+    onClick={[Function]}
+    type="button"
+  >
+    Click
+  </button>
+</div>
+`;

@@ -9,11 +9,15 @@ exports[`render form 1`] = `
       type="text"
     />
     <div
-      className="styles__BoxButton-sc-1f4hn43-0 gbLRBs"
+      className="styles__BoxButton-sc-1hhwn61-0 ficEpN"
     >
       <button
-        className="styles__ButtonAqua-sc-1f4hn43-1 jkWVxD"
-      />
+        className="styles__ButtonAqua-sc-1hhwn61-1 FuuFO"
+        onClick={[Function]}
+        type="button"
+      >
+        Click
+      </button>
     </div>
   </form>
 </div>
