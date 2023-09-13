@@ -1,30 +1,23 @@
-import { BoxButton, ButtonAqua, ButtonPurple } from "./styles";
+import { ButtonStyle } from "./styles";
 import PropTypes from "prop-types";
 
 export default function Button({ children, type, onClick, href }) {
-  return (
-    <>
-      <BoxButton>
-        {href ? (
-          <ButtonAqua href={href} as="a" type={type}>
-            {children}
-          </ButtonAqua>
-        ) : (
-          <ButtonAqua type={type} onClick={onClick}>
-            {children}
-          </ButtonAqua>
-        )}
-      </BoxButton>
-    </>
-  );
+  const buttonType = {
+    type: type,
+    onClick: onClick,
+  }
+  const anchorType = {
+    as: "a",
+    href: href
+  }
+  return <ButtonStyle { ...href ? anchorType : buttonType }>{children}</ButtonStyle>;
 }
 
 Button.propTypes = {
   href: PropTypes.string,
   onClick: PropTypes.func,
   children: PropTypes.string,
-  size: PropTypes.oneOf(["smail", "medium", "large"]),
-  type: PropTypes.oneOf(["submit", "reset", "button"]).isRequired,
+  type: PropTypes.oneOf(["submit", "reset", "button"]),
 };
 
 Button.defaultProps = {
