@@ -1,7 +1,7 @@
 import { ButtonStyle } from "./styles";
 import PropTypes from "prop-types";
 
-export default function Button({ children, type, onClick, href }) {
+export default function Button({ children, type, onClick, href, background, borderRadius, padding }) {
   const buttonType = {
     type: type,
     onClick: onClick,
@@ -10,10 +10,14 @@ export default function Button({ children, type, onClick, href }) {
     as: "a",
     href: href
   }
-  return <ButtonStyle { ...href ? anchorType : buttonType }>{children}</ButtonStyle>;
+
+  return <ButtonStyle padding={padding} borderRadius={borderRadius} background={background} { ...href ? anchorType : buttonType }>{children}</ButtonStyle>;
 }
 
 Button.propTypes = {
+  padding: PropTypes.string,
+  borderRadius: PropTypes.string,
+  background: PropTypes.string,
   href: PropTypes.string,
   onClick: PropTypes.func,
   children: PropTypes.string,
@@ -21,5 +25,5 @@ Button.propTypes = {
 };
 
 Button.defaultProps = {
-  children: "ttt",
+  children: "click",
 };

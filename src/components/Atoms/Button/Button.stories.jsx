@@ -16,6 +16,9 @@ export default {
 
 export const Primary = (args) => <Button {...args} />;
 Primary.args = {
+  padding: '',
+  borderRadius: '',
+  background: 'color',
   href: "",
   children: "",
   type: "submits",
