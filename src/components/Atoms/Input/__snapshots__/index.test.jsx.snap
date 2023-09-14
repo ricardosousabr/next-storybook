@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render input 1`] = `
+<input
+  className="styles__InputStyle-sc-xbforv-0 gRnhN"
+  type="text"
+/>
+`;
