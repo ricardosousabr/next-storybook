@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render accordion 1`] = `
+<div>
+  <div>
+    <p>
+      List
+    </p>
+    <button
+      background="aqua"
+      borderRadius="10px"
+      className="styles__ButtonStyle-sc-1hhwn61-0 iRCioL"
+      onClick={[Function]}
+      padding="10px 20px"
+    >
+      +
+    </button>
+  </div>
+  <div />
+</div>
+`;

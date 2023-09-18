@@ -1,11 +1,10 @@
-import Button from "@/src/components/Atoms/Button";
+import Accordion from "@/src/components/Molecules/Accordion";
+
 
 export default function Home() {
   return (
     <>
-      <div>
-        <Button >Change</Button>
-      </div>
+      <Accordion />
     </>
   );
 }
