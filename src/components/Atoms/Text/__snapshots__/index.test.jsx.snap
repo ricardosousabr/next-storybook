@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render text 1`] = `
+<p
+  className="styles__TextStyle-sc-15myn20-0 hdLYJM"
+  color="aqua"
+  fontSize="12px"
+>
+  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam vel quas, iusto nulla aut temporibus optio sed! Asperiores deleniti at sed illo neque, eveniet est eius, itaque sint, vitae molestias.
+</p>
+`;

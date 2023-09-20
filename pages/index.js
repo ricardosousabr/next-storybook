@@ -1,10 +1,10 @@
-import Accordion from "@/src/components/Molecules/Accordion";
+import Select from "@/src/components/Atoms/Select";
 
 
 export default function Home() {
   return (
     <>
-      <Accordion />
+      <Select />
     </>
   );
 }
