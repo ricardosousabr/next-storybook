@@ -1,0 +1,26 @@
+import { create } from '@storybook/theming/create';
+
+export default create({
+  base: 'dark',
+  brandTitle: 'Storybook in Next.js',
+  brandUrl: 'https://github.com/ricardosousabr/next-storybook',
+  brandImage: '../public/img/github-logo.png',
+  brandTarget: '_self',
+  fontBase: '"Open Sans", sans-serif',
+  fontCode: 'monospace',
+  colorPrimary: '#00FFFF',
+  colorSecondary: '#03BB85',
+  appBg: '#000000',
+  appContentBg: '#000000',
+  appBorderColor: '#585C6D',
+  appBorderRadius: 12,
+  textColor: '#00FFFF',
+  textInverseColor: '#03BB85',
+  barTextColor: '#9E9E9E',
+  barSelectedColor: '#585C6D',
+  barBg: '#808080',
+  inputBg: '#808080',
+  inputBorder: '#10162F',
+  inputTextColor: '#10162F',
+  inputBorderRadius: 10,
+});
