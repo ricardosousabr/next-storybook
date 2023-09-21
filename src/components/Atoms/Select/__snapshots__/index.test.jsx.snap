@@ -2,6 +2,14 @@
 
 exports[`render text 1`] = `
 <select>
-  <option />
+  <option>
+    1213
+  </option>
+  <option>
+    1213
+  </option>
+  <option>
+    1213
+  </option>
 </select>
 `;
