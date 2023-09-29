@@ -20,9 +20,15 @@ Primary.args = {
   borderRadius: '',
   background: 'color',
   href: "",
-  children: "",
-  type: "submits",
-  onClick: () => {
-    console.log("Test");
-  },
+  children: "Click",
+  type: "submit",
 };
+
+Primary.argTypes = {
+  onClick: {
+    action: 'clicked',
+    description: 'Ação acionada quando o botão é clicado',
+  },
+}
+
+
