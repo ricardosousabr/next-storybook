@@ -21,14 +21,16 @@ Primary.args = {
   background: 'color',
   href: "",
   children: "Click",
-  type: "submit",
 };
 
 Primary.argTypes = {
   onClick: {
     action: 'clicked',
     description: 'Ação acionada quando o botão é clicado',
+    interaction: 'clicked'
   },
+  type: {
+    options: ['submit', 'reset', 'button'],
+    control: { type: 'radio' },
+  }
 }
-
-

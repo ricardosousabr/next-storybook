@@ -26,4 +26,5 @@ Button.propTypes = {
 
 Button.defaultProps = {
   children: "click",
+  type: "submit"
 };
