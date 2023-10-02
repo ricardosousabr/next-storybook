@@ -16,9 +16,11 @@ export default {
 
 export const Primary = (args) => <Input {...args} />;
 Primary.args = {
-  padding: "",
-  borderRadius: "",
+  label:"",
   value: "",
-  placeholder: "",
+  placeholder: "Escreva o seu nome aqui",
   type: "text",
+  padding: "10px",
+  borderRadius: "10px",
+  disabled: false,
 };
